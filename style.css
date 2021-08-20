@@ -122,7 +122,17 @@
     margin-bottom: 20px;
 }
 
+.title span::before {
+    content: 'LOREM IPSUM';
+    color: #284df9;
+    position: absolute;
+    top: -20px;
+    font-size: 14px;
+    opacity: .6;
+}
+
 .title span {
+    position: relative;
     color: #284df9;
 }
 

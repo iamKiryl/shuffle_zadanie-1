@@ -29,7 +29,7 @@
     border-top: 130px solid #e1e3f2;
     border-right: 130px solid #e1e3f2;
     top: 260px;
-    right: 150px;
+    right: 400px;
 }
 
 .container {
@@ -155,6 +155,31 @@
     cursor: pointer;
 }
 
+.box-image svg {
+    width: 18px;
+    height: 18px;
+}
+
+.blue svg {
+    color: #1d80dd;
+}
+
+.green svg {
+    color: #3e9545;
+}
+
+.yellow svg {
+    color: #f79c32;
+}
+
+.purple svg {
+    color: #81279d;
+}
+
+
+
+
+
 @media screen and (max-width: 1140px) {
     .container {
         flex-direction: column;
@@ -175,6 +200,10 @@
     .section-content-box {
         flex-direction: column;
         align-items: center;
+    }
+
+    .decoration-2 {
+        display: none;
     }
 
     .content-box+.content-box {
